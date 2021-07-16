@@ -1,0 +1,149 @@
+body, html {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  background: #d61717;
+  height: 180px;
+  padding: 1em;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper .image-bg {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  height: auto;
+  opacity: 0.2;
+}
+.wrapper .head-title h1 {
+  color: #fff;
+  font-size: 4em;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  line-height: 90px;
+}
+.wrapper .head-title p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sec-wrapper .bg-sec-one {
+  height: 300px;
+  padding: 6em 0 0 3em;
+  overflow: hidden;
+}
+.sec-wrapper .bg-sec-one h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4em;
+  color: #282c37;
+}
+.sec-wrapper .bg-sec-one .bg-collab {
+  position: absolute;
+  top: -90px;
+  right: 20px;
+  width: 700px;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.sec-wrapper .design-bg {
+  width: 100%;
+  background-image: url("https://midnightcityboutique.com/wp-content/uploads/2017/05/qtq80-xhPCGS-1350x570.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.information-wrapper {
+  width: 100%;
+  height: auto;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background: #F8FAFF;
+}
+.information-wrapper .information-card {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 7em;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: -5px 26px 66px -8px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -5px 26px 66px -8px rgba(0, 0, 0, 0.23);
+  box-shadow: -5px 26px 66px -8px rgba(0, 0, 0, 0.23);
+}
+.information-wrapper .information-card .title-card {
+  background: #000;
+  color: #fff;
+  padding: 1.8em 0 1.4em 0;
+  text-align: center;
+  margin-bottom: 1em;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 1em;
+}
+.information-wrapper .information-card .title-card h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.information-wrapper .information-card ul {
+  padding-left: 1em;
+  padding-right: 1em;
+  list-style-type: none;
+}
+.information-wrapper .information-card .checkout-btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  background: #3ac569;
+  color: #fff;
+  font-weight: bold;
+  padding: 2em 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 0 0 5px 5px;
+}
+
+@media all and (max-width: 767px) {
+  .wrapper {
+    height: 110px;
+    padding: 0;
+  }
+  .wrapper .head-title h1 {
+    font-size: 2em;
+  }
+}
+@media all and (max-width: 367px) {
+  .wrapper {
+    background: #000;
+  }
+  .wrapper .head-title h1 {
+    font-size: 1.3em;
+  }
+  .wrapper .image-bg {
+    top: 0px;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .information-wrapper .information-card {
+    width: 98%;
+  }
+}
+@media all and (max-width: 367px) {
+  .wrapper {
+    height: 100px;
+  }
+  .wrapper .image-bg {
+    opacity: 0;
+  }
+  .wrapper .head-title h1 {
+    font-size: 1em;
+  }
+}

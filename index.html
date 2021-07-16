@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Manny Q.</title>
+		<meta name="description" content="I'm a designer & developer living in South Florida." />
+		<meta name="keywords" content="Manuel Quintanilla, Manuel Designer, Manuel Developer, Manuel Q., Manuel New York, Manuel Quintanilla Palm Beach, Manuel Quintanilla UI Designer, @alloffices" />
+		<meta name="author" content="Manuel Quintanilla" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body>
+		<main>
+			<header class="codrops-header">
+				<img src="https://68.media.tumblr.com/a22762fbff8ae9ebef0e3e3ad3c17277/tumblr_nx7k84ancQ1u9rr2so1_250.jpg" style="border-radius:50%;width:50px;" />
+				<h1 class="codrops-header__title">Manny Q.</h1>
+				<p class="codrops-header__tagline">I'm a <strong>wordpress developer</strong> living in South Florida.<br />> You can find me sharing some code on <a href="https://github.com/tm-const" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>.</p>
+				<p class="codrops-header__tagline">Write me: <a href="mailto:alloffices.nyc@gmail.com">alloffices.nyc@gmail.com</a></p>
+			</header>
+			<section class="content">
+				<h2 id="copyright" class="content__title">&copy; <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></h2>
+				<div class="grid grid--effect-vega">
+					<a href="https://www.mrpaulxavier.com/" target="_blank" class="grid__item grid__item--c1">
+						<div class="stack">
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__figure">
+								<img class="stack__img" src="img/1.jpg" alt="Image"/>
+							</div>
+						</div>
+						<div class="grid__item-caption">
+							<h3 class="grid__item-title">Next Level</h3>
+							<div class="column column--left">
+								<span class="column__text">Web</span>
+								<span class="column__text">Tools</span>
+								<span class="column__text"><br ><br /><i class="fa fa-wordpress" aria-hidden="true"></i></span>
+							</div>
+							<div class="column column--right">
+								<span class="column__text">Development</span>
+								<span class="column__text">HTML5<br />CSS3<br />Javascript</span>
+								<span class="column__text" onclick="window.open('https://www.mrpaulxavier.com/', '_blank');" style="cursor: pointer;">Wordpress</span>
+							</div>
+						</div>
+					</a>
+					<a href="https://midnightcityboutique.com/" target="_blank" class="grid__item grid__item--c2">
+						<div class="stack">
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__figure">
+								<img class="stack__img" src="img/2.jpeg" alt="Image"/>
+							</div>
+						</div>
+						<div class="grid__item-caption">
+							<h3 class="grid__item-title">Mid Night City</h3>
+							<div class="column column--left">
+								<span class="column__text">Web</span>
+								<span class="column__text">Tools</span>
+								<span class="column__text"><br ><br /><img style="width:20px;" src="img/shopify.svg" alt="shopify"/></span>
+							</div>
+							<div class="column column--right">
+								<span class="column__text">Development</span>
+								<span class="column__text">HTML5<br />CSS3<br />Jquery</span>
+								<span class="column__text"  onclick="window.open('https://midnightcityboutique.com/', '_blank');" style="cursor: pointer;">shopify</span>
+							</div>
+						</div>
+					</a>
+					<a href="https://www.convivacarecenters.com/en" target="_blank" class="grid__item grid__item--c3">
+						<div class="stack">
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__deco"></div>
+							<div class="stack__figure">
+								<img class="stack__img" src="img/3.jpeg" alt="Image"/>
+							</div>
+						</div>
+						<div class="grid__item-caption">
+							<h3 class="grid__item-title">Conviva Care Centers</h3>
+							<div class="column column--left">
+								<span class="column__text">Web</span>
+								<span class="column__text">Tools</span>
+								<span class="column__text"><br /><br /><img style="width:20px;" src="img/ruby.svg" alt="ruby"/></span>
+							</div>
+							<div class="column column--right">
+								<span class="column__text">Development</span>
+								<span class="column__text">HTML5<br />CSS3<br />Jquery</span>
+								<span class="column__text"   onclick="window.open('https://www.convivacarecenters.com/en', '_blank');" style="cursor: pointer;">Ruby On Rails</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		(function() {
+			[].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+				new VegaFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+				new CastorFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+				new HamalFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+				new PolarisFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+				new AlphardFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+				new AltairFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+				new RigelFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+				new CanopusFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+				new PolluxFx(stackEl);
+			});
+			[].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+				new DenebFx(stackEl);
+			});
+		})();
+		</script>
+	</body>
+</html>
